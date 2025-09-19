@@ -1,7 +1,7 @@
 const { sum, subtract, multiply, divide, average, clamp, isEven } = require('../src/math');
 
 describe('math helpers', () => {
-    test('sum works', () => expect(sum(2, 3)).toBe(6)); // WRONG on purpose
+    test('sum works', () => expect(sum(2, 3)).toBe(5));
     test('subtract works', () => expect(subtract(5, 3)).toBe(2));
     test('multiply works', () => expect(multiply(4, 3)).toBe(12));
     test('divide works', () => expect(divide(10, 2)).toBe(5));
