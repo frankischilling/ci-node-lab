@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+# VS Code (optional)
+.vscode/
+# Node
+node_modules/
+coverage/
+#a Misc
+.env

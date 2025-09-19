@@ -1,0 +1,17 @@
+{
+  "name": "ci-node-lab",
+  "version": "1.0.0",
+  "description": "Beginner CI lab for Node.js on GitHub Actions",
+  "main": "src/index.js",
+  "bin": {
+    "calc": "bin/calc.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
